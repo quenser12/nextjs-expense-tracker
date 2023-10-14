@@ -66,6 +66,7 @@ export default function LoginForm(data:LoginProps) {
         <div className='w-full h-full text-black centered md:h-screen'>
           <div className='flex flex-col items-center justify-center'>
             <h1 className='text-4xl font-extrabold'>Expense Tracker</h1>
+            <p>"Be in Control"</p>
 
             <div className="hero__image-container">
             <div className="hero__image">
