@@ -6,10 +6,10 @@ import Image from 'next/image'
 export default function LoginForm(data:LoginProps) {
 
     return (
-      <div className=" w-screen h-screen grid grid-rows-2 text-white md:grid-cols-2">
+      <div className=" ">
         
         {/* Left Side */}
-        <div className=' relative flex flex-col items-center justify-center min-h-screen overflow-hidden md:h-screen'>
+        <div className=' relative flex flex-col items-center justify-center min-h-screen overflow-hidden'>
         <div className="w-1/2 p-6 bg-white rounded-md shadow-md lg:max-w-xl">
           <h1 className="text-3xl font-bold text-center text-gray-700">Logo</h1>
           <form className="mt-6">
@@ -63,7 +63,7 @@ export default function LoginForm(data:LoginProps) {
         </div>
         {/* Right Side */}
         
-        <div className='w-full h-full text-black centered md:h-screen'>
+        {/* <div className='w-full h-full text-black centered md:h-screen'>
           <div className='flex flex-col items-center justify-center'>
             <h1 className='text-4xl font-extrabold'>Expense Tracker</h1>
             <p>"Be in Control"</p>
@@ -77,7 +77,7 @@ export default function LoginForm(data:LoginProps) {
             </div>
           </div>
           
-        </div>
+        </div> */}
         
 
        
